@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+:root {
+      --head-bg: rgb(118, 184, 207);
+      --head-color: #3c3cbc;
+      --main-color: rgb(38, 255, 0);
+      --main-bg: rgb(26, 128, 8);
+      --footer-color: rgb(243, 72, 177);
+      --footer-bg: rgb(115, 41, 61);
+    }
+
+.header{
+    background-color: var(--head-bg);
+    color: var(--head-color);
+}    
+.main{
+    background-color: var(--main-bg);
+    color: var(--main-color);
+}    
+.footer{
+    background-color: var(--footer-bg);
+    color: var(--footer-color);
+}    
+.list{
+    background-color: var(--head-bg);
+    color: var(--head-color);
+}
+.button{
+    background-color: var(--head-bg);
+    color: var(--head-color);
+}
