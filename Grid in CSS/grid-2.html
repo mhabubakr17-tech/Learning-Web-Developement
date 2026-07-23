@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            /* box-sizing: border-box; */
+            margin: 0;
+            padding: 0;
+        }
+        .grid{
+            /* row-gap: 10px;
+            column-gap: 10px; */
+            /* padding: 5px; */
+            border: 1px solid black;
+            display: grid;
+            grid-template-areas: "header header header"
+                                 " main main sidebar"
+                                 "footer footer footer";
+            grid-template-columns: repeat(3,minmax(100px,1fr));
+            /* grid-template-rows: 1fr 9fr 1fr; */
+        }
+        .box{
+            border: 2px solid red;
+            box-sizing: border-box;
+            /* margin: 5px; */
+            padding: 20px;
+            /* grid-template-rows: 0px 100px 0px; */
+            background-color: aqua;
+            /* height: 80vh; */
+        }
+        .main{
+            grid-area: main;
+        }
+        .sidebar{
+            grid-area: sidebar;
+        }
+        .header{
+            grid-area: header;
+        }
+        .footer{
+            grid-area: footer;
+        }
+        .flag1{
+            height: 80vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="box header">nav</div>
+        <div class="box main flag1">main</div>
+        <div class="box sidebar flag1">side bar</div>
+        <div class="box footer">footer</div>
+    </div>
+
+
+
+
+
+</body>
+</html>
