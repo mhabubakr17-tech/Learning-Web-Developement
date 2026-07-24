@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        header{
+            position: sticky;
+            top: 0;
+        }
+        body{
+            background-color: black;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header nav{
+            background-color: aqua;
+            height: 50px;
+        }
+        footer nav{
+            background-color: violet;
+            height: 50px;
+        }
+        .bigbox{
+            margin: 10px 20px;
+            background-color: cadetblue;
+            height: 90vh;
+            padding: 0;
+            text-align: center;
+        }
+        .box1{
+            background-color: blanchedalmond;
+            height: 380px;
+            width: 30%;
+            display: inline-block;
+            margin: 50px 50px;
+        }
+        .box2{
+            margin: 50px 50px;
+            height: 380px;
+            width: 30%;
+            
+            background-color: yellowgreen;
+            display: inline-block;
+        }
+        .box3{
+            border: 2px solid black;
+            border-radius: 40px;
+            margin: 10px 60px 100px 100px;
+            text-align: center;
+            height: 30vh;
+            align-content: center;
+            font-size: 60px;
+            background-color: white;
+        }
+        .logo{
+            background-color: orange;
+            height: 30px;
+            width: 30px;
+            border-radius: 60px;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="head">
+        <nav>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="bigbox">
+            <div class="box1"></div>
+            <div class="box2"></div>
+        </div>
+        <div class="logo"></div>
+        <div class="box3">Hey my name is Hella The Great</div>
+    </main>
+
+    <footer>
+        <nav>
+        </nav>
+    </footer>
+</body>
+</html>
