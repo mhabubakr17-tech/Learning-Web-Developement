@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Excercise 5 -Navbar</title>
     <style>
+      @import url("https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
       * {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
         box-sizing: border-box;
         margin: 0;
         padding: 0;
@@ -15,34 +19,65 @@
         top: 0;
       }
       .top2 {
-        background-color: lightgray;
-        border-radius: 5px;
-        margin: 10px 15px;
-        height: 80px;
+        border: 1px solid lightgray;
+        background-color: rgb(235, 240, 255);
+        border-radius: 4px;
+        margin: 19px;
+        height: 78px;
         align-content: center;
-        padding: 0px 10px;
+        justify-content: center;
+        padding: 0px 15px;
       }
-      img {
-        background-color: lightgray;
-        height: 60px;
-        border-radius: 50px;
+      .logomain{
+        /* align-self: center; */
+        background-color: rgb(235, 240, 255);
+        height: 59px;
+        /* border-radius: 50px; */
+        /* align-self: center; */
+        justify-self: center;
+        float: left;
       }
       .box1 {
         border: 2px solid blue;
         padding: 2px;
         background-color: lightgreen;
-        margin: 10px 400px;
+        margin: 10px 40px;
       }
       .top1 {
         text-align: center;
-        background-color: yellow;
-        height: 40px;
+        background-color: rgb(255, 211, 66);
+        height: 45px;
+        font-size: 15px;
         align-content: center;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
       }
-      .flag{
+      .flag {
         padding: 1px;
-        height: 100px;
+        height: 107px;
         background-color: white;
+      }
+      .top1 a {
+        margin: 0px 10px;
+        color: black;
+      }
+      .mainlist{
+        display: flex;
+        list-style: none;
+        justify-self: center;
+      }
+      ul{
+        /* margin-top: 15px; */
+        list-style: none;
+        /* text-align: center; */
+        display: flex;
+        align-content: center;
+        justify-content: center;
+      }
+      .searchimg{
+        background-color: rgb(235, 240, 255);
+        
+
       }
     </style>
   </head>
@@ -51,17 +86,24 @@
       <nav>
         <div class="top1">
           UE Core & Enterprise Subscriptions: Get 10% Off on your second year
+          <a href="">Buy Now →</a>
         </div>
         <div class="flag">
-            <div class="top2">
-                <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI5cXmJ0m8TEfm9vTfamXNLAZkUQE3D_3mt7pdIA-Qlw&s=10"
+          <div class="top2">
+            <span class="flag1">
+              <img class="logomain"
+              src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-logo.svg"
               alt="Logo"
             />
-            <span>UltraEdit
-                b
             </span>
-            </div>
+            <span>
+              <ul>
+                <li>Products</li>
+                <li>Buy</li>
+                <li>Renew</li>
+              </ul>
+            </span>
+          </div>
         </div>
       </nav>
     </header>
@@ -106,7 +148,7 @@
           necessitatibus vitae totam veniam distinctio culpa id harum aperiam
           excepturi vel neque? At rerum tenetur nobis labore iusto, veniam
           doloribus. Cumque est accusantium vero quos odit dolorem, magnam
-          corrupti ex voluptates non, itaque architecto.
+          corrupti ex voluptates non, itaque architecto. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam quos sit corrupti nostrum? Minus itaque facilis, voluptatem consequatur earum quasi tempora provident. Unde, rerum natus debitis autem soluta expedita quibusdam nobis. Saepe enim laboriosam perferendis itaque odit pariatur. Distinctio magnam, sapiente vel animi, voluptatem, nemo ducimus quis incidunt dolorem optio velit. Ea eveniet facilis, ad eos voluptatem quidem iusto veniam sint nam ullam, accusamus quos saepe, explicabo fugiat obcaecati. Suscipit inventore quam, facilis obcaecati ducimus pariatur eius? Quibusdam quae ipsa tenetur, ab recusandae totam modi aliquid aliquam est cumque qui assumenda pariatur ducimus laboriosam quis tempora, perspiciatis eveniet? Distinctio, reiciendis?
         </p>
       </div>
       <div class="box2">hella is a boy idiotic</div>
