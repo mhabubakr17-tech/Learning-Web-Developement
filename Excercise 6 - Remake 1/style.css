@@ -29,12 +29,6 @@ ul {
   gap: 15px;
   list-style: none;
 }
-
-.right {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
 header {
   background-color: white;
   padding: 15px 10px 5px 10px;
