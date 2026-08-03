@@ -42,10 +42,21 @@ header {
   top: 0;
 }
 button {
-    border-radius: 6px;
+    border-radius: 4px;
   background-color: var(--primary);
   padding: 8px 15px;
+  border: 0;
 }
 main {
   padding: 20px;
+}
+ul li svg{
+  width: 20px;
+  height: 20px;
+}
+li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
