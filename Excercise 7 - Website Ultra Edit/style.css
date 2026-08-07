@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --primary: #ffd741;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  margin: 20px 20px 10px 20px;
+  border-radius: 6px;
+  background-color: rgba(241, 239, 239, 0.733);
+  align-items: center;
+  padding: 5px 25px;
+  flex-wrap: wrap;
+}
+ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+button {
+  border-radius: 4px;
+  background-color: var(--primary);
+  padding: 8px 15px;
+  border: none;
+}
+ul li svg {
+  width: 20px;
+  height: 20px;
+}
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.promo {
+  background-color: var(--primary);
+  text-align: center;
+  padding: 10px;
+}
+.navlist{
+  font-size: medium;
+}
+.list1{
+  gap: 30px;
+}
+.box1{
+  margin-top: 13rem;
+  font-size: x-large;
+  font-weight: 600;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2em;
+}
+a{
+  color: black;
+  border: none;
+}
+.window{
+  width: 5vw;
+  height: auto;
+}
