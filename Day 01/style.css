@@ -1,0 +1,23 @@
+*{
+    text-align: center;
+}
+#box {
+    background-color: blue;
+    color: antiquewhite;
+    /* text-align: center; */
+}
+.heading {
+    color: red;
+}
+h1,h2,h3{
+    color: purple;
+}
+button{
+    background-color: green;
+}
+a{
+    text-decoration: none;
+    font-weight: 800;
+    color: yellow;
+    font-size: 5vw;
+}
