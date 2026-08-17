@@ -1,0 +1,33 @@
+.logo{
+    text-align: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+.search{
+    text-align: center;
+    margin: 20px;
+}
+input{
+    padding: 10px 20vw;
+    border-radius: 30px;
+    border: 1px solid lightgrey;
+}
+.buttons{
+    text-align: center;
+}
+.button1{
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+.button2{
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+.bigbox{
+    display: flex;
+    flex-direction: column;
+}
