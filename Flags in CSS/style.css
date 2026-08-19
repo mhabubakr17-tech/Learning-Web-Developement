@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+.first{
+    height: 100px;
+    background-color: red;
+}
+.second{
+    height: 80px;
+    background-color: turquoise;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.third{
+    height: 100px;
+    background-color: violet;
+}

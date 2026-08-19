@@ -1,0 +1,31 @@
+.image1{
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+.card{
+    color: black;
+    background-color: lightpink;
+    margin-top: 40px;
+    padding: 30px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.button{
+    padding: 8px 12px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    font-weight: bold;
+    font-size: medium;
+    width: 110px;
+    background-color: white;
+    margin-top: 40px;
+}
+.buttonbox{
+    /* background-color: aquamarine; */
+    margin: auto;
+    width: 110px;
+}
