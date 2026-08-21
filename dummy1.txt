@@ -1,0 +1,91 @@
+📌 PHASE 1: HTML & CSS (1 WEEK)
+(Goal: Build a static website that looks professional.)
+
+Day 1-2: HTML Basics
+Learn: <div>, <h1>, <p>, <a>, <img>, <ul>, <li>, <form>
+Project: Build a personal portfolio page (Name, About Me, Skills, Contact).
+Deploy it on Vercel (Drag & drop your HTML file).
+Day 3-4: CSS Basics
+Learn: color, font-size, margin, padding, display: flex
+Project: Style your portfolio with Flexbox (No Grid yet).
+Day 5-7: Tailwind CSS (The Modern Way)
+Skip raw CSS. Learn Tailwind CSS (Utility-first styling).
+Project: Rebuild your portfolio using only Tailwind.
+Deploy it again.
+🔥 Key Skill: Your portfolio should look better than 90% of beginners' work.
+
+📌 PHASE 2: JAVASCRIPT (2 WEEKS)
+(Goal: Make your website interactive.)
+
+Day 1-3: JavaScript Basics
+Learn: let, const, if/else, for loops, functions, arrays, objects
+Project: Build a to-do list (Add, delete, mark as complete).
+Day 4-7: DOM Manipulation
+Learn: document.querySelector(), addEventListener(), innerHTML
+Project: Make your to-do list save to localStorage (So it doesn’t disappear on refresh).
+Day 8-14: Async JavaScript (The Hard Part)
+Learn: fetch(), async/await, try/catch, JSON
+Project: Build a weather app (Use OpenWeather API).
+Deploy it.
+🔥 Key Skill: You should be able to fetch data from an API and display it on a page.
+
+📌 PHASE 3: REACT (2 WEEKS)
+(Goal: Build dynamic, reusable UIs.)
+
+Day 1-3: React Basics
+Learn: useState, useEffect, components, props
+Project: Convert your weather app to React.
+Day 4-7: React Router & Forms
+Learn: react-router-dom, controlled forms, useNavigate
+Project: Build a multi-page app (Home, About, Contact).
+Day 8-14: Next.js (The Pro Move)
+Learn: File-based routing, Server Components, fetch in Next.js
+Project: Rebuild your portfolio in Next.js (Deploy on Vercel).
+🔥 Key Skill: You should be able to build a multi-page React app with API calls.
+
+📌 PHASE 4: BACKEND (NESTJS) (3 WEEKS)
+(Goal: Build a real API that talks to a database.)
+
+Day 1-3: Node.js Basics
+Learn: npm init, express, routes, middleware
+Project: Build a simple API (GET/POST requests).
+Day 4-7: NestJS (The Tough Part)
+Learn: Modules, controllers, services, DTOs
+Project: Build a CRUD API (Create, Read, Update, Delete).
+Day 8-14: PostgreSQL + Prisma
+Learn: SQL basics, Prisma ORM, migrations
+Project: Connect your NestJS API to PostgreSQL.
+Day 15-21: Authentication (JWT)
+Learn: bcrypt, JWT, guards in NestJS
+Project: Add login/signup to your API.
+🔥 Key Skill: You should be able to build a secure API with a database.
+
+📌 PHASE 5: AI INTEGRATION (1 WEEK)
+(Goal: Make your app "smart".)
+
+Day 1-3: LangChain.js
+Learn: How to call OpenAI/Gemini APIs
+Project: Add an AI chatbot to your portfolio.
+Day 4-7: RAG (Retrieval-Augmented Generation)
+Learn: Vector databases (Pinecone)
+Project: Let users upload a PDF and ask questions about it.
+🔥 Key Skill: You should be able to add AI to any app.
+
+📌 PHASE 6: DEPLOYMENT (1 WEEK)
+(Goal: Put your app on the internet.)
+
+Day 1-3: Docker
+Learn: Dockerfile, docker-compose.yml
+Project: Containerize your NestJS + PostgreSQL app.
+Day 4-7: CI/CD (GitHub Actions)
+Learn: Automated testing & deployment
+Project: Set up auto-deploy on every Git push.
+🔥 Key Skill: You should be able to deploy a full-stack app like a pro.
+
+🚀 FINAL PROJECT: UNIVERSITY MANAGEMENT SYSTEM
+(Combine everything you learned.)
+
+Frontend: Next.js + Tailwind
+Backend: NestJS + PostgreSQL
+AI: LangChain.js (AI course advisor)
+Deployment: Docker + Vercel/Render
