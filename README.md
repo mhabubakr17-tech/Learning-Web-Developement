@@ -6,7 +6,8 @@ instagram link of a video that has all web dev contents
 <!-- https://www.instagram.com/p/Db262phmK3z/?img_index=2&igsh=MXdlajR5OTJrbnN6eQ== -->
 
 
-🗺️ The "Tough Guy" Roadmap
+...Roadmap
+
 Phase 1: The Professional Face (4-6 Weeks)
 HTML/CSS: Don't spend too much time here. Learn the basics and move to Tailwind.
 TypeScript: Learn types, interfaces, and enums. This will be frustrating at first, but don't quit.
