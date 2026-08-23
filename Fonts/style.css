@@ -1,0 +1,10 @@
+
+@font-face {
+    font-family: Corleone;
+    src: url("Corleone.ttf");
+}
+body{
+    text-align: center;
+    font-family: Corleone;
+    font-size: xx-large;
+}
