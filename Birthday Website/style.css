@@ -35,8 +35,33 @@ body{
 #text-2{
     margin: 0px 0px 20px 0px;
 }
-.gift-cover{
-    border: 3px solid white;
-    width: 400px;
-    margin: 0px 0px 20px 0px;
+.gift{
+    background-image: url("images/images.jpg");
+    background-size: cover;
+    border: 5px solid white;
+    margin: 0px auto;
+    border-radius: 6px;
+    width: 350px;
+    height: 350px;
+}
+.gift-section{
+    margin-top: 20px;
+}
+#g-1:hover{
+    background-image: url("images/tate.webp");
+}
+#g-2:hover{
+    background-image: url("images/tate1.webp");
+}
+#g-3:hover{
+    background-image: url("images/black.webp");
+}
+#g-4:hover{
+    background-image: url("images/tate2.webp");
+}
+#g-5{
+    height: 190px;
+}
+#g-5:hover{
+    background-image: url("images/200.webp");
 }
