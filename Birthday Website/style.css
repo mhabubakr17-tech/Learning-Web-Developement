@@ -2,7 +2,8 @@
 body{
     color: white;
     text-align: center;
-    background-color: lightblue;
+    background: linear-gradient(lightblue,purple);
+    /* background-color: lightblue; */
     font-family: "Happy Monkey", system-ui;
     text-shadow: 1px 1px 3px black;
 }
@@ -62,10 +63,12 @@ body{
 #g-5:hover{
     background-image: url("images/200.webp");
 }
-#course{
-    color: purple;
-    text-decoration: none;
-}
 .footer{
-    margin-bottom: 20px;
+    color: white;
+    font-style: italic;
+    margin: 30px auto 20px;
+    width: 300px;
+}
+#course{
+    color: white;
 }

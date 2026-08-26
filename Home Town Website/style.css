@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.hero{
+    background-image: url("images/isl.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 525px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+}
+#h-1{
+    margin: 100px 0px 5px 0px;
+    background-color: #9395d3;
+}
+#h-2{
+    margin: 0;
+    background-color: #b3b7ee;
+}.head{
+    padding: 0px 10px;
+    border-radius: 6px;
+}
+#img-football{
+    width: 100px;
+    height: 100px;
+}
+.act{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-border{
+    border-radius: 50px;
+}
+.main{
+    padding-top: 20px;
+    background-color: lightgray;
+}
+#main-heading{
+    margin: 0px 0px 25px 0px;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    width: 475px;
+    height: 275px;
+    background-color: lightblue;
+    margin: 50px auto;
+    border-bottom: 3px solid blue;
+    padding: 20px;
+}
+.thor-img{
+    width: 175px;
+    height: 275px;
+}
+#guide{
+    margin: 0px;
+}
+.data{
+    padding: 10px 30px;
+}
